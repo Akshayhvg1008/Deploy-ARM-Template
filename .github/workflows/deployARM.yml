@@ -6,7 +6,7 @@ on:
       - main
 env:
   AZURE_SUBSCRIPTION_ID: 82b48a92-ffff-4f32-8e71-804a00743ad2 # set this to your Azure Subscription Id
-  AZURE_RESOURCE_GROUP: git  # set this to your target resource group
+  AZURE_RESOURCE_GROUP:  git  # set this to your target resource group
 
 jobs:
   deploy-virtual-network-template:
